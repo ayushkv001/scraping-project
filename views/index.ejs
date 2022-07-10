@@ -18,7 +18,7 @@
       <h3>Total followers: <%=data.followers%></h3>
       <h3>likes: <%=data.lastposts[0].likes%></h3>
       <h3>comments: <%=data.lastposts[0].comments%></h3>
-      <h3>Engagement rate: <%= (data.lastposts[0].likes + data.lastposts[0].comments)/(data.followers*100)%></h3>
+      <h3>Engagement rate: <%= (data.lastposts[0].likes + data.lastposts[0].comments)/(data.followers)*100%></h3>
     </div>
     <%}%>
   </body>
